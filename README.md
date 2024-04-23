@@ -24,8 +24,8 @@ Dilate the Image
  
 ### Program:
 ```
-NAME: Deepika S
-REG.NO: 212222230028
+NAME: SRI KARTHICKEYAN GANAPATHY
+REG.NO: 212222240102
 ```
 
 ##### Import the necessary packages
@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img ,'Deepika',(60,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'TheAILearner', (5, 70), font, 2,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 ```
